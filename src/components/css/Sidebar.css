@@ -1,0 +1,44 @@
+.sidebar {
+  flex: 0.35;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+  border-right: 1px solid #ccc;
+  overflow-y: scroll;
+}
+.sidebar__header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+}
+
+.sidebar__avatar {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.sidebar__search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e1e1e1;
+  color: gray;
+  border-radius: 5px;
+  flex: 1;
+  padding: 5px;
+}
+.sidebar__search input {
+  flex: 1;
+  border: 0 none;
+  background: transparent;
+  outline: 0;
+}
+.sidebar__chats {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.sidebar__chats::-webkit-scrollbar {
+  display: none;
+}

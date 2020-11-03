@@ -1,0 +1,48 @@
+.chatRoom {
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.chatRoom__header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+
+.chatRoom__header h4 {
+  font-weight: 500;
+  color: #ccc;
+}
+
+.chatRoom__channelName {
+  color: #000;
+}
+
+.chatRoom__input {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-top: 1px solid #ccc;
+  background: #f5f5f5;
+}
+
+.chatRoom__input form {
+  flex: 1;
+}
+.chatRoom__input form input {
+  width: 100%;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.chatRoom__body {
+  flex: 1;
+}
